@@ -1,18 +1,22 @@
-[gd_resource type="Resource" script_class="Project" load_steps=8 format=3 uid="uid://crohvk5gkhog0"]
+[gd_resource type="Resource" script_class="Project" load_steps=12 format=3 uid="uid://crohvk5gkhog0"]
 
 [ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_4hs0f"]
 [ext_resource type="Texture2D" uid="uid://pompvuj3fiub" path="res://assets/texture/thumbnails/avoiding_disaster.png" id="1_5h6y0"]
 [ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_fm4ud"]
 [ext_resource type="Resource" uid="uid://e1mr2ltjy8a0" path="res://resource/tag/resources/agile.tres" id="3_1illd"]
-[ext_resource type="Resource" uid="uid://to37ikau0l3j" path="res://resource/tag/resources/github.tres" id="4_5h6y0"]
-[ext_resource type="Resource" uid="uid://ctwt5q2l8lot4" path="res://resource/tag/resources/unity.tres" id="5_cwgx1"]
-[ext_resource type="Resource" uid="uid://djjq5q48qj3l2" path="res://resource/tag/resources/visual_studio.tres" id="6_b8q2g"]
+[ext_resource type="Resource" uid="uid://to37ikau0l3j" path="res://resource/tag/resources/tool/github.tres" id="5_cwgx1"]
+[ext_resource type="Resource" uid="uid://ctwt5q2l8lot4" path="res://resource/tag/resources/tool/unity.tres" id="6_b8q2g"]
+[ext_resource type="Resource" uid="uid://djjq5q48qj3l2" path="res://resource/tag/resources/tool/visual_studio.tres" id="7_bd5yr"]
+[ext_resource type="Resource" uid="uid://cfbnx2pkt60bl" path="res://resource/tag/resources/language/c_sharp.tres" id="8_n8kjo"]
+[ext_resource type="Resource" uid="uid://br2d3gghhdt08" path="res://resource/tag/resources/skill/system_design.tres" id="9_b8q2g"]
+[ext_resource type="Resource" uid="uid://bmunbb6qymj46" path="res://resource/tag/resources/genre/casual.tres" id="10_n8kjo"]
+[ext_resource type="Resource" uid="uid://cps8rhvx5savf" path="res://resource/tag/resources/genre/multiplayer.tres" id="11_oo2i5"]
 
 [resource]
 script = ExtResource("1_4hs0f")
 title = "Avoiding Disaster"
 portrait_image = ExtResource("1_5h6y0")
 role = "Unity Developer"
-tags = Array[ExtResource("2_fm4ud")]([ExtResource("3_1illd"), ExtResource("4_5h6y0"), ExtResource("5_cwgx1"), ExtResource("6_b8q2g")])
+tags = Array[ExtResource("2_fm4ud")]([ExtResource("3_1illd"), ExtResource("5_cwgx1"), ExtResource("6_b8q2g"), ExtResource("7_bd5yr"), ExtResource("8_n8kjo"), ExtResource("9_b8q2g"), ExtResource("10_n8kjo"), ExtResource("11_oo2i5")])
 link = "https://entem.itch.io/avoiding-disaster"
 metadata/_custom_type_script = "uid://ojj6mr73iyp"

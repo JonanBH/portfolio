@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Profile" load_steps=10 format=3 uid="uid://bde07bvjklrxc"]
+
+[ext_resource type="Script" uid="uid://q0djepvaqag0" path="res://resource/profile/profile.gd" id="1_0qxj1"]
+[ext_resource type="Script" uid="uid://dyfwy7p787ny1" path="res://resource/experience/experience.gd" id="1_n1w52"]
+[ext_resource type="Resource" uid="uid://cevoar77ysy4s" path="res://resource/experience/resources/advancement_design.tres" id="2_0llw6"]
+[ext_resource type="Texture2D" uid="uid://bh0vi0laedohe" path="res://assets/texture/portrait/portrait.png" id="2_chosf"]
+[ext_resource type="Resource" uid="uid://dya7kxekpv8ur" path="res://resource/experience/resources/IMxr.tres" id="3_c0dr2"]
+[ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="4_wc1y7"]
+[ext_resource type="Resource" uid="uid://crohvk5gkhog0" path="res://resource/project/resources/avoiding_disaster.tres" id="5_wc1y7"]
+[ext_resource type="Resource" uid="uid://jnkqjhvlvitx" path="res://resource/project/resources/illuminated.tres" id="6_5fl1w"]
+[ext_resource type="Resource" uid="uid://cocqquilv1pfw" path="res://resource/project/resources/lurking_illusions.tres" id="7_5fl1w"]
+
+[resource]
+script = ExtResource("1_0qxj1")
+name = "Jonathan Danilo Moreira de Souza"
+portrait = ExtResource("2_chosf")
+linkedin = "https://www.linkedin.com/in/jonathan-danilo"
+email = "mailto:jonan.jogosdigitais@gmail.com"
+itch = "https://www.jonanbh.itch.io"
+github = "https://github.com/JonanBH"
+experiences = Array[ExtResource("1_n1w52")]([ExtResource("2_0llw6"), ExtResource("3_c0dr2")])
+personal_projects = Array[ExtResource("4_wc1y7")]([ExtResource("5_wc1y7"), ExtResource("6_5fl1w"), ExtResource("7_5fl1w")])
+current_role = "Unreal Developer"
+current_company = "Advancement Design"
+metadata/_custom_type_script = "uid://q0djepvaqag0"

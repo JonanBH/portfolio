@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://ctwt5q2l8lot4"]
-
-[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_718ar"]
-
-[resource]
-script = ExtResource("1_718ar")
-name = "Unity"
-color = Color(0.8862616, 0.88626146, 0.8862615, 1)
-metadata/_custom_type_script = "uid://qn7iopguisvk"

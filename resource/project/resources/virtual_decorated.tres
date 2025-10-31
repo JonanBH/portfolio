@@ -1,11 +1,19 @@
-[gd_resource type="Resource" script_class="Project" load_steps=3 format=3 uid="uid://bn7e0xlaw8j1v"]
+[gd_resource type="Resource" script_class="Project" load_steps=10 format=3 uid="uid://bn7e0xlaw8j1v"]
 
 [ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_8fr3j"]
 [ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_hbh0u"]
+[ext_resource type="Resource" uid="uid://dtk182pp1houy" path="res://resource/tag/resources/language/c_plus_plus.tres" id="3_hbh0u"]
+[ext_resource type="Resource" uid="uid://cn0qivjv0466b" path="res://resource/tag/resources/language/unreal_blueprint.tres" id="4_m38xm"]
+[ext_resource type="Resource" uid="uid://cps8rhvx5savf" path="res://resource/tag/resources/genre/multiplayer.tres" id="5_dl27u"]
+[ext_resource type="Resource" uid="uid://tgf4msb167mw" path="res://resource/tag/resources/genre/simulation.tres" id="6_j1h3u"]
+[ext_resource type="Resource" uid="uid://dx5ruy2nqf3km" path="res://resource/tag/resources/tool/rider.tres" id="7_67vij"]
+[ext_resource type="Resource" uid="uid://3uye5tumiyxv" path="res://resource/tag/resources/tool/tortoise_svn.tres" id="8_yxumf"]
+[ext_resource type="Resource" uid="uid://bxyfgylt22mgl" path="res://resource/tag/resources/tool/unreal_engine.tres" id="9_ocmwm"]
 
 [resource]
 script = ExtResource("1_8fr3j")
 title = "Virtual Decorated"
 role = "Unreal Developer"
+tags = Array[ExtResource("2_hbh0u")]([ExtResource("3_hbh0u"), ExtResource("4_m38xm"), ExtResource("5_dl27u"), ExtResource("6_j1h3u"), ExtResource("7_67vij"), ExtResource("8_yxumf"), ExtResource("9_ocmwm")])
 link = "https://www.imxr.com.br/blank-1"
 metadata/_custom_type_script = "uid://ojj6mr73iyp"

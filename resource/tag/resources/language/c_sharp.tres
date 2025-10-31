@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://cfbnx2pkt60bl"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_46xq5"]
+
+[resource]
+script = ExtResource("1_46xq5")
+name = "C++"
+color = Color(0.41568628, 0.6156863, 0.827451, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

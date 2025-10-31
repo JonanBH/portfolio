@@ -11,4 +11,5 @@ grow_vertical = 2
 script = ExtResource("1_cis3r")
 
 [node name="ProjectsParent" type="FlowContainer" parent="."]
+unique_name_in_owner = true
 layout_mode = 2

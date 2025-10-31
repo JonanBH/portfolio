@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://cps8rhvx5savf"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_ceeac"]
+
+[resource]
+script = ExtResource("1_ceeac")
+name = "Multiplayer"
+color = Color(0.47371346, 0.72804683, 0.90748435, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

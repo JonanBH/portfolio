@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://7xup3xk88pda"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_v5bgq"]
+
+[resource]
+script = ExtResource("1_v5bgq")
+name = "RPG"
+color = Color(0.6774143, 0.37546268, 0, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

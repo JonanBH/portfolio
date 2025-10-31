@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Project" load_steps=13 format=3 uid="uid://jnkqjhvlvitx"]
+
+[ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_vn6vw"]
+[ext_resource type="Texture2D" uid="uid://b6xhcva7ls2rc" path="res://assets/texture/thumbnails/illuminated.png" id="1_xlj2v"]
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_fh34p"]
+[ext_resource type="Resource" uid="uid://e1mr2ltjy8a0" path="res://resource/tag/resources/agile.tres" id="4_kki70"]
+[ext_resource type="Resource" uid="uid://to37ikau0l3j" path="res://resource/tag/resources/tool/github.tres" id="5_aajpn"]
+[ext_resource type="Resource" uid="uid://ctwt5q2l8lot4" path="res://resource/tag/resources/tool/unity.tres" id="6_u6xwe"]
+[ext_resource type="Resource" uid="uid://djjq5q48qj3l2" path="res://resource/tag/resources/tool/visual_studio.tres" id="7_ysfhs"]
+[ext_resource type="Resource" uid="uid://kxvtrmo6kyby" path="res://resource/tag/resources/skill/management.tres" id="8_aua7r"]
+[ext_resource type="Resource" uid="uid://cfbnx2pkt60bl" path="res://resource/tag/resources/language/c_sharp.tres" id="9_vcscw"]
+[ext_resource type="Resource" uid="uid://br2d3gghhdt08" path="res://resource/tag/resources/skill/system_design.tres" id="10_u6xwe"]
+[ext_resource type="Resource" uid="uid://c36oubwrjqbo1" path="res://resource/tag/resources/genre/action.tres" id="11_aua7r"]
+[ext_resource type="Resource" uid="uid://7xup3xk88pda" path="res://resource/tag/resources/genre/rpg.tres" id="12_vcscw"]
+
+[resource]
+script = ExtResource("1_vn6vw")
+title = "Illuminated"
+portrait_image = ExtResource("1_xlj2v")
+role = "Project manager and Unity Developer"
+tags = Array[ExtResource("2_fh34p")]([ExtResource("4_kki70"), ExtResource("5_aajpn"), ExtResource("6_u6xwe"), ExtResource("7_ysfhs"), ExtResource("8_aua7r"), ExtResource("9_vcscw"), ExtResource("10_u6xwe"), ExtResource("11_aua7r"), ExtResource("12_vcscw")])
+metadata/_custom_type_script = "uid://ojj6mr73iyp"

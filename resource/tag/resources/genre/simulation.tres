@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://tgf4msb167mw"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_uic45"]
+
+[resource]
+script = ExtResource("1_uic45")
+name = "Simulation"
+color = Color(1.2513996e-06, 0.51629555, 0.52611756, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

@@ -1,10 +1,21 @@
-[gd_resource type="Theme" load_steps=16 format=3 uid="uid://dr5ub0apdu5tp"]
+[gd_resource type="Theme" load_steps=18 format=3 uid="uid://dr5ub0apdu5tp"]
 
 [ext_resource type="Texture2D" uid="uid://cna6viwn3uyjg" path="res://addons/Fantasy UI Borders/PNG/Double/Divider/divider-003.png" id="1_pj5x1"]
 [ext_resource type="Texture2D" uid="uid://b6vekomoahxwl" path="res://addons/Fantasy UI Borders/PNG/Double/Transparent center/panel-transparent-center-000.png" id="1_sqd8y"]
 [ext_resource type="Texture2D" uid="uid://cm4m1xpnasad4" path="res://addons/Fantasy UI Borders/PNG/Default/Panel/panel-014.png" id="2_petao"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x3ygk"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gr0f6"]
+load_path = "res://.godot/imported/panel-transparent-center-000.png-3eadf0d59362bd13151447d395bec7a4.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6jqdy"]
+texture = SubResource("CompressedTexture2D_gr0f6")
+texture_margin_left = 33.0
+texture_margin_top = 32.0
+texture_margin_right = 30.0
+texture_margin_bottom = 35.0
+modulate_color = Color(0.7038078, 0.7038079, 0.70380765, 0.5647059)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1xjyv"]
 load_path = "res://.godot/imported/panel-transparent-center-000.png-3eadf0d59362bd13151447d395bec7a4.ctex"
@@ -15,7 +26,7 @@ texture_margin_left = 33.0
 texture_margin_top = 32.0
 texture_margin_right = 30.0
 texture_margin_bottom = 35.0
-modulate_color = Color(0, 0.45882353, 0.85882354, 1)
+modulate_color = Color(0.4, 0.94509804, 0.7607843, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b7qxl"]
 texture = ExtResource("1_pj5x1")
@@ -29,7 +40,7 @@ texture_margin_left = 33.0
 texture_margin_top = 32.0
 texture_margin_right = 30.0
 texture_margin_bottom = 35.0
-modulate_color = Color(0, 0.45882353, 0.85882354, 1)
+modulate_color = Color(0.4, 0.94509804, 0.7607843, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pj5x1"]
 texture = ExtResource("2_petao")
@@ -74,6 +85,7 @@ modulate_color = Color(0.19076231, 0.19076234, 0.19076231, 1)
 
 [resource]
 CategoryLabel/base_type = &"Label"
+CategoryLabel/colors/font_color = Color(0.9882353, 0.6901961, 0.49411765, 1)
 CategoryLabel/font_sizes/font_size = 28
 HiddenButton/base_type = &"Button"
 HiddenButton/styles/disabled = SubResource("StyleBoxEmpty_x3ygk")
@@ -85,7 +97,7 @@ HiddenButton/styles/hover_pressed = SubResource("StyleBoxEmpty_x3ygk")
 HiddenButton/styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_x3ygk")
 HiddenButton/styles/normal = SubResource("StyleBoxEmpty_x3ygk")
 HiddenButton/styles/normal_mirrored = SubResource("StyleBoxEmpty_x3ygk")
-HiddenButton/styles/pressed = SubResource("StyleBoxEmpty_x3ygk")
+HiddenButton/styles/pressed = SubResource("StyleBoxTexture_6jqdy")
 HiddenButton/styles/pressed_mirrored = SubResource("StyleBoxEmpty_x3ygk")
 Label/colors/font_color = Color(0.8980392, 0.8980392, 0.8980392, 1)
 MainPanel/base_type = &"Panel"

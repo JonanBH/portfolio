@@ -12,12 +12,13 @@ var project : Project:
 		_update_project()
 
 
-@onready var image: TextureRect = $PanelContainer/MarginContainer/VBoxContainer/Image
-@onready var title_label: Label = $PanelContainer/MarginContainer/VBoxContainer/TitleLabel
-@onready var role: Label = $PanelContainer/MarginContainer/VBoxContainer/Role
-@onready var tag_container: TagContainer = $PanelContainer/MarginContainer/VBoxContainer/TagContainer
-@onready var button: Button = $Button
-@onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var image: TextureRect = %Image
+@onready var title_label: Label = %TitleLabel
+@onready var role: Label = %Role
+@onready var tag_container: TagContainer = %TagContainer
+@onready var button: Button = %ProjectButton
+@onready var animation_player: AnimationPlayer = %FadeAnimationPlayer
+
 
 
 func _ready() -> void:

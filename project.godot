@@ -13,6 +13,7 @@ config_version=5
 config/name="portfolio"
 run/main_scene="uid://b8x3oxgvd71v5"
 config/features=PackedStringArray("4.5", "Mobile")
+run/low_processor_mode=true
 boot_splash/show_image=false
 config/icon="res://icon.svg"
 

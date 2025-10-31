@@ -23,7 +23,7 @@ func _ready() -> void:
 func _update_visuals() -> void:
 	portrait.texture = profile.portrait
 	name_label.text = profile.name
-	current_role.text = "[color=cca43b]%s[/color] at [color=cca43b]%s[/color]" % \
+	current_role.text = "[color=#B6244F]%s[/color] at [color=#B6244F]%s[/color]" % \
 			[profile.current_role, profile.current_company]
 	
 	

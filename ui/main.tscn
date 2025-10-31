@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://dbbiwxep7ogw0" path="res://addons/Pixelart_App_Icons_v5_by_ReffPixels/Big (120x120) PNG/Gmail.png" id="8_ar4ev"]
 
 [sub_resource type="Gradient" id="Gradient_ar4ev"]
-colors = PackedColorArray(0.15608543, 0.18468568, 0.40802217, 1, 0, 0.23893654, 0.46776402, 1)
+colors = PackedColorArray(0.105882354, 0.1764706, 0.16470589, 1, 0.20349658, 0.3140162, 0.29552227, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_7nk2m"]
 gradient = SubResource("Gradient_ar4ev")
@@ -114,6 +114,7 @@ layout_mode = 2
 [node name="NameLabel" type="Label" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_colors/font_color = Color(0.9882353, 0.6901961, 0.49411765, 1)
 theme_override_font_sizes/font_size = 32
 text = "Jonathan Danilo Moreira de Souza"
 
@@ -125,6 +126,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(200, 32)
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_colors/default_color = Color(0.9882353, 0.6901961, 0.49411765, 1)
 bbcode_enabled = true
 text = "[color=cca43b]%s[/color] at [color=cca43b]%s[/color]"
 autowrap_mode = 2

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Experience" load_steps=5 format=3 uid="uid://cevoar77ysy4s"]
+
+[ext_resource type="Script" uid="uid://bc16m1tx6imjm" path="res://resource/date.gd" id="1_4hbmf"]
+[ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_ytmaj"]
+[ext_resource type="Script" uid="uid://dyfwy7p787ny1" path="res://resource/experience/experience.gd" id="2_4hbmf"]
+
+[sub_resource type="Resource" id="Resource_twouj"]
+script = ExtResource("1_4hbmf")
+month = 12
+year = 2024
+metadata/_custom_type_script = "uid://bc16m1tx6imjm"
+
+[resource]
+script = ExtResource("2_4hbmf")
+company = "Advancement Design"
+role = "Unreal Developer"
+from_date = SubResource("Resource_twouj")
+is_current = true
+metadata/_custom_type_script = "uid://dyfwy7p787ny1"

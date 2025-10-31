@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://2mxm220ti60m"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_7iaoa"]
+
+[resource]
+script = ExtResource("1_7iaoa")
+name = "Game Jam"
+color = Color(0.72156864, 0.16078432, 0.1764706, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

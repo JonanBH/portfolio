@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://to37ikau0l3j"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_5njt1"]
+
+[resource]
+script = ExtResource("1_5njt1")
+name = "Github"
+color = Color(0.5176471, 0.1882353, 0.58431375, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

@@ -1,0 +1,16 @@
+[gd_scene load_steps=6 format=3 uid="uid://bld50igxxirh0"]
+
+[ext_resource type="Script" uid="uid://dns2pc2pdj2pc" path="res://ui/widget/tag_container/tag_container.gd" id="1_dqqu8"]
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_42n7y"]
+[ext_resource type="Resource" uid="uid://e1mr2ltjy8a0" path="res://resource/tag/resources/agile.tres" id="3_d7h5d"]
+[ext_resource type="Resource" uid="uid://2mxm220ti60m" path="res://resource/tag/resources/game_jam.tres" id="4_ojpni"]
+[ext_resource type="Resource" uid="uid://bxb6w0tg74u4p" path="res://resource/tag/resources/godot.tres" id="5_hr8or"]
+
+[node name="TagContainer" type="MarginContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_dqqu8")
+tags = Array[ExtResource("2_42n7y")]([ExtResource("3_d7h5d"), ExtResource("4_ojpni"), ExtResource("5_hr8or")])
+
+[node name="TagsParent" type="HFlowContainer" parent="."]
+layout_mode = 2

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://djjq5q48qj3l2"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_pe5gt"]
+
+[resource]
+script = ExtResource("1_pe5gt")
+name = "Visual Studio"
+color = Color(0.41960785, 0.20784314, 0.5882353, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

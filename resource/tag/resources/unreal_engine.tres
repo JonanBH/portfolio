@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://bxyfgylt22mgl"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_lfer4"]
+
+[resource]
+script = ExtResource("1_lfer4")
+name = "Unreal Engine"
+color = Color(1.2935139e-07, 0.0643667, 0.10807479, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

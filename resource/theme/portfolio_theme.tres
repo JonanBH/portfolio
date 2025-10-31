@@ -1,0 +1,16 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dr5ub0apdu5tp"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x3ygk"]
+load_path = "res://.godot/imported/panel-000.png-accf050029e008176373cd87f4074609.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sqd8y"]
+texture = SubResource("CompressedTexture2D_x3ygk")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+modulate_color = Color(0.21176471, 0.21176471, 0.21176471, 1)
+
+[resource]
+Label/colors/font_color = Color(0.8980392, 0.8980392, 0.8980392, 1)
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_sqd8y")

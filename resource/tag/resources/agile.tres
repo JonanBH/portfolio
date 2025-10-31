@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://e1mr2ltjy8a0"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_dgail"]
+
+[resource]
+script = ExtResource("1_dgail")
+name = "Rider"
+color = Color(0.8039216, 0.08627451, 0.3882353, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

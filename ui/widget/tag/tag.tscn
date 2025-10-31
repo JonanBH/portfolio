@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1kalp84yh27y"]
+
+[ext_resource type="Script" uid="uid://bd4qifrhn0c2o" path="res://ui/widget/tag/tag.gd" id="1_m53nc"]
+[ext_resource type="Texture2D" uid="uid://dktt47608jkc4" path="res://addons/Fantasy UI Borders/PNG/Default/Panel/panel-018.png" id="1_nxiou"]
+[ext_resource type="Texture2D" uid="uid://dovpsssrapqew" path="res://addons/Fantasy UI Borders/PNG/Default/Divider/divider-004.png" id="2_m53nc"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nxiou"]
+texture = ExtResource("1_nxiou")
+texture_margin_left = 17.0
+texture_margin_top = 17.0
+texture_margin_right = 17.0
+texture_margin_bottom = 17.0
+region_rect = Rect2(0, 0, 48, 48)
+modulate_color = Color(0.103743516, 0.10374353, 0.103743516, 1)
+
+[node name="Tag" type="MarginContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_m53nc")
+
+[node name="Panel" type="Panel" parent="."]
+texture_filter = 1
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_nxiou")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(15, 15)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_m53nc")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Visual Studio"

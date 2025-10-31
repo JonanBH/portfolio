@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bck6morc5ej8j"]
+
+[ext_resource type="Script" uid="uid://im0qexamnsm0" path="res://ui/widget/url_button/url_button.gd" id="1_nsljj"]
+[ext_resource type="Texture2D" uid="uid://cgc7tqvhnanrc" path="res://addons/Pixelart_App_Icons_v5_by_ReffPixels/Big (120x120) PNG/LinkedIn.png" id="2_5xvb0"]
+
+[node name="URLButton" type="Button"]
+custom_minimum_size = Vector2(60, 60)
+offset_right = 8.0
+offset_bottom = 8.0
+theme_type_variation = &"HiddenButton"
+script = ExtResource("1_nsljj")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("2_5xvb0")
+expand_mode = 1

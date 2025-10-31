@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://bxb6w0tg74u4p"]
-
-[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_jw0kr"]
-
-[resource]
-script = ExtResource("1_jw0kr")
-name = "Godot"
-color = Color(0.2784314, 0.54901963, 0.7490196, 1)
-metadata/_custom_type_script = "uid://qn7iopguisvk"

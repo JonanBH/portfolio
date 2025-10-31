@@ -1,0 +1,200 @@
+[gd_scene load_steps=12 format=3 uid="uid://b8x3oxgvd71v5"]
+
+[ext_resource type="Script" uid="uid://i87cypqd8bln" path="res://ui/main.gd" id="1_loxbi"]
+[ext_resource type="Texture2D" uid="uid://bh0vi0laedohe" path="res://assets/texture/portrait/portrait.png" id="1_vcrq8"]
+[ext_resource type="Resource" uid="uid://bde07bvjklrxc" path="res://resource/profile/resources/jonathan_souza.tres" id="2_h17sc"]
+[ext_resource type="Texture2D" uid="uid://det52ltdk44a5" path="res://addons/Fantasy UI Borders/PNG/Double/Border/panel-border-016.png" id="2_loxbi"]
+[ext_resource type="PackedScene" uid="uid://bck6morc5ej8j" path="res://ui/widget/url_button/url_button.tscn" id="5_fc3ap"]
+[ext_resource type="PackedScene" uid="uid://bgkw4r3mhg35v" path="res://ui/widget/project_list/projects_list.tscn" id="5_h17sc"]
+[ext_resource type="Texture2D" uid="uid://cgc7tqvhnanrc" path="res://addons/Pixelart_App_Icons_v5_by_ReffPixels/Big (120x120) PNG/LinkedIn.png" id="6_04ebt"]
+[ext_resource type="Texture2D" uid="uid://cl656wp6btqir" path="res://addons/Pixelart_App_Icons_v5_by_ReffPixels/Big (120x120) PNG/Itch io.png" id="7_ar4ev"]
+[ext_resource type="Texture2D" uid="uid://dbbiwxep7ogw0" path="res://addons/Pixelart_App_Icons_v5_by_ReffPixels/Big (120x120) PNG/Gmail.png" id="8_ar4ev"]
+
+[sub_resource type="Gradient" id="Gradient_ar4ev"]
+colors = PackedColorArray(0.15608543, 0.18468568, 0.40802217, 1, 0, 0.23893654, 0.46776402, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_7nk2m"]
+gradient = SubResource("Gradient_ar4ev")
+fill_from = Vector2(0.4957265, 1)
+fill_to = Vector2(0.51282054, 0.025641026)
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_loxbi")
+profile = ExtResource("2_h17sc")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_7nk2m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Header" type="MarginContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 176)
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Background" type="Panel" parent="VBoxContainer/Header"]
+layout_mode = 2
+theme_type_variation = &"MainPanel"
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Header"]
+layout_mode = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 25
+
+[node name="CharacterHUD" type="Control" parent="VBoxContainer/Header/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Container" type="CenterContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer"]
+visible = false
+clip_contents = true
+layout_mode = 2
+
+[node name="Mask" type="TextureRect" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/Container"]
+clip_contents = true
+custom_minimum_size = Vector2(72, 100)
+layout_mode = 2
+
+[node name="Portrait" type="TextureRect" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/Container/Mask"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(48, 64)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -34.0
+offset_top = -35.0
+offset_right = 34.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_vcrq8")
+expand_mode = 1
+
+[node name="Border" type="TextureRect" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/Container"]
+custom_minimum_size = Vector2(48, 64)
+layout_mode = 2
+texture = ExtResource("2_loxbi")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Jonathan Danilo Moreira de Souza"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CurrentRole" type="RichTextLabel" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[color=cca43b]%s[/color] at [color=cca43b]%s[/color]"
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 40
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/MarginContainer"]
+layout_mode = 2
+alignment = 2
+
+[node name="LinkedinButton" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/MarginContainer/HBoxContainer" instance=ExtResource("5_fc3ap")]
+unique_name_in_owner = true
+layout_mode = 2
+logo = ExtResource("6_04ebt")
+url = "asdf"
+
+[node name="ItchButton" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/MarginContainer/HBoxContainer" instance=ExtResource("5_fc3ap")]
+unique_name_in_owner = true
+layout_mode = 2
+logo = ExtResource("7_ar4ev")
+url = "asdf"
+
+[node name="EmailButton" parent="VBoxContainer/Header/MarginContainer/CharacterHUD/HBoxContainer/MarginContainer/HBoxContainer" instance=ExtResource("5_fc3ap")]
+unique_name_in_owner = true
+layout_mode = 2
+logo = ExtResource("8_ar4ev")
+url = "asdf"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/HBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="MainContent" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ProfessionalProjectsLabel" type="Label" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer/MainContent"]
+layout_mode = 2
+theme_type_variation = &"CategoryLabel"
+text = "Professional projects"
+
+[node name="ProfessionalProjectList" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer/MainContent" instance=ExtResource("5_h17sc")]
+unique_name_in_owner = true
+layout_mode = 2
+delay_between_show = 0.05
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer/MainContent"]
+custom_minimum_size = Vector2(0, 42.41)
+layout_mode = 2
+
+[node name="PersonalProjects" type="Label" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer/MainContent"]
+layout_mode = 2
+theme_type_variation = &"CategoryLabel"
+text = "Personal projects"
+
+[node name="PersonalProjectList" parent="VBoxContainer/HBoxContainer/MarginContainer/ScrollContainer/MainContent" instance=ExtResource("5_h17sc")]
+unique_name_in_owner = true
+layout_mode = 2
+delay_between_show = 0.05

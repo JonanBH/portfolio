@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://cn0qivjv0466b"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_7r7h4"]
+
+[resource]
+script = ExtResource("1_7r7h4")
+name = "Blueprints"
+color = Color(0.5137255, 0.23529412, 0.4, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

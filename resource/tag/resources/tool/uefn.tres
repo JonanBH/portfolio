@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://dp4qru5353nb1"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_7wxoc"]
+
+[resource]
+script = ExtResource("1_7wxoc")
+name = "UEFN"
+color = Color(0.11964025, 0.37298328, 0.71214473, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"

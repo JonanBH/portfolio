@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="Experience" load_steps=6 format=3 uid="uid://dya7kxekpv8ur"]
+[gd_resource type="Resource" script_class="Experience" load_steps=7 format=3 uid="uid://dya7kxekpv8ur"]
 
 [ext_resource type="Script" uid="uid://bc16m1tx6imjm" path="res://resource/date.gd" id="1_2uc5w"]
 [ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_fsdcy"]
 [ext_resource type="Script" uid="uid://dyfwy7p787ny1" path="res://resource/experience/experience.gd" id="2_2uc5w"]
+[ext_resource type="Resource" uid="uid://bn7e0xlaw8j1v" path="res://resource/project/resources/virtual_decorated.tres" id="3_ymotx"]
 
 [sub_resource type="Resource" id="Resource_ymotx"]
 script = ExtResource("1_2uc5w")
@@ -23,4 +24,5 @@ company_link = "https://www.imxr.com.br"
 role = "Junior Unreal Developer"
 from_date = SubResource("Resource_ymotx")
 until_date = SubResource("Resource_157qx")
+projects = Array[ExtResource("1_fsdcy")]([ExtResource("3_ymotx")])
 metadata/_custom_type_script = "uid://dyfwy7p787ny1"

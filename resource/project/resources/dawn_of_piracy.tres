@@ -1,19 +1,23 @@
-[gd_resource type="Resource" script_class="Project" load_steps=9 format=3 uid="uid://b1ngsfsgh8ehi"]
+[gd_resource type="Resource" script_class="Project" load_steps=13 format=3 uid="uid://b1ngsfsgh8ehi"]
 
 [ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_pge43"]
 [ext_resource type="Texture2D" uid="uid://dac2mwax2vtk8" path="res://assets/texture/thumbnails/dawn_of_piracy.png" id="1_vkrck"]
 [ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_2br3n"]
 [ext_resource type="Resource" uid="uid://e1mr2ltjy8a0" path="res://resource/tag/resources/agile.tres" id="4_4vyf4"]
-[ext_resource type="Resource" uid="uid://cm4ke7q34y7bv" path="res://resource/tag/resources/figma.tres" id="5_g8dk4"]
-[ext_resource type="Resource" uid="uid://dx5ruy2nqf3km" path="res://resource/tag/resources/rider.tres" id="6_87855"]
-[ext_resource type="Resource" uid="uid://3uye5tumiyxv" path="res://resource/tag/resources/tortoise_svn.tres" id="7_b4lib"]
-[ext_resource type="Resource" uid="uid://bxyfgylt22mgl" path="res://resource/tag/resources/unreal_engine.tres" id="8_tbr8t"]
+[ext_resource type="Resource" uid="uid://cm4ke7q34y7bv" path="res://resource/tag/resources/tool/figma.tres" id="5_4vyf4"]
+[ext_resource type="Resource" uid="uid://dx5ruy2nqf3km" path="res://resource/tag/resources/tool/rider.tres" id="6_g8dk4"]
+[ext_resource type="Resource" uid="uid://3uye5tumiyxv" path="res://resource/tag/resources/tool/tortoise_svn.tres" id="7_87855"]
+[ext_resource type="Resource" uid="uid://bxyfgylt22mgl" path="res://resource/tag/resources/tool/unreal_engine.tres" id="8_b4lib"]
+[ext_resource type="Resource" uid="uid://dtk182pp1houy" path="res://resource/tag/resources/language/c_plus_plus.tres" id="9_tbr8t"]
+[ext_resource type="Resource" uid="uid://br2d3gghhdt08" path="res://resource/tag/resources/skill/system_design.tres" id="10_g8dk4"]
+[ext_resource type="Resource" uid="uid://c36oubwrjqbo1" path="res://resource/tag/resources/genre/action.tres" id="11_b4lib"]
+[ext_resource type="Resource" uid="uid://7xup3xk88pda" path="res://resource/tag/resources/genre/rpg.tres" id="12_tbr8t"]
 
 [resource]
 script = ExtResource("1_pge43")
 title = "Dawn of Piracy"
 portrait_image = ExtResource("1_vkrck")
 role = "Unreal Developer"
-tags = Array[ExtResource("2_2br3n")]([ExtResource("4_4vyf4"), ExtResource("5_g8dk4"), ExtResource("6_87855"), ExtResource("7_b4lib"), ExtResource("8_tbr8t")])
+tags = Array[ExtResource("2_2br3n")]([ExtResource("4_4vyf4"), ExtResource("5_4vyf4"), ExtResource("6_g8dk4"), ExtResource("11_b4lib"), ExtResource("12_tbr8t"), ExtResource("7_87855"), ExtResource("8_b4lib"), ExtResource("9_tbr8t"), ExtResource("10_g8dk4")])
 link = "https://www.dawnofpiracy.com"
 metadata/_custom_type_script = "uid://ojj6mr73iyp"

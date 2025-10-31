@@ -4,6 +4,6 @@
 
 [resource]
 script = ExtResource("1_dgail")
-name = "Rider"
-color = Color(0.8039216, 0.08627451, 0.3882353, 1)
+name = "Agile"
+color = Color(0.8542265, 0.31526285, 0.17736548, 1)
 metadata/_custom_type_script = "uid://qn7iopguisvk"

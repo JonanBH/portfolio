@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Project" load_steps=12 format=3 uid="uid://cocqquilv1pfw"]
+
+[ext_resource type="Texture2D" uid="uid://boixajsep02m1" path="res://assets/texture/thumbnails/lurking_illusions.png" id="1_64ikc"]
+[ext_resource type="Script" uid="uid://ojj6mr73iyp" path="res://resource/project/project.gd" id="1_deb3q"]
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="2_5x526"]
+[ext_resource type="Resource" uid="uid://e1mr2ltjy8a0" path="res://resource/tag/resources/agile.tres" id="4_fvjvc"]
+[ext_resource type="Resource" uid="uid://2mxm220ti60m" path="res://resource/tag/resources/game_jam.tres" id="5_8b7u6"]
+[ext_resource type="Resource" uid="uid://to37ikau0l3j" path="res://resource/tag/resources/tool/github.tres" id="6_fvjvc"]
+[ext_resource type="Resource" uid="uid://bxb6w0tg74u4p" path="res://resource/tag/resources/tool/godot.tres" id="7_8b7u6"]
+[ext_resource type="Resource" uid="uid://bgrnmvxkd0tbj" path="res://resource/tag/resources/language/gdscript.tres" id="8_4g175"]
+[ext_resource type="Resource" uid="uid://br2d3gghhdt08" path="res://resource/tag/resources/skill/system_design.tres" id="9_8b7u6"]
+[ext_resource type="Resource" uid="uid://c36oubwrjqbo1" path="res://resource/tag/resources/genre/action.tres" id="10_5n2rf"]
+[ext_resource type="Resource" uid="uid://cb3qlt26ctivk" path="res://resource/tag/resources/genre/horror.tres" id="11_nq1nd"]
+
+[resource]
+script = ExtResource("1_deb3q")
+title = "Lurking illusions"
+portrait_image = ExtResource("1_64ikc")
+role = "Godot developer"
+tags = Array[ExtResource("2_5x526")]([ExtResource("4_fvjvc"), ExtResource("5_8b7u6"), ExtResource("6_fvjvc"), ExtResource("7_8b7u6"), ExtResource("8_4g175"), ExtResource("9_8b7u6"), ExtResource("10_5n2rf"), ExtResource("11_nq1nd")])
+metadata/_custom_type_script = "uid://ojj6mr73iyp"

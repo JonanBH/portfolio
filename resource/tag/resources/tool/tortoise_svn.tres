@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Tag" load_steps=2 format=3 uid="uid://3uye5tumiyxv"]
+
+[ext_resource type="Script" uid="uid://qn7iopguisvk" path="res://resource/tag/tag.gd" id="1_1vki8"]
+
+[resource]
+script = ExtResource("1_1vki8")
+name = "Tortoise SVN"
+color = Color(0.42850566, 0.73957115, 0.9028683, 1)
+metadata/_custom_type_script = "uid://qn7iopguisvk"
